@@ -1,0 +1,13 @@
+{
+	"name": "SourceDataset_98r",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Test",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

@@ -1,0 +1,20 @@
+{
+	"name": "DestinationDataset_98r",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "daidalosdwh-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "astros.json",
+				"fileSystem": "daidalos"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

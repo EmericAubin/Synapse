@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "CREATE TABLE daidalos.PARTY\n  (  \n    id int NOT NULL,  \n    lastName varchar(20),  \n    zipCode varchar(6)  \n  )  \n; ",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"poolName": "Built-in",
+				"databaseName": "daidalos"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

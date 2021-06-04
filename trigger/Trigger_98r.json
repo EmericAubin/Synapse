@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_98r",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline_98r",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2021-06-04T13:23:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
