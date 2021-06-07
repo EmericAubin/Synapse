@@ -21,24 +21,31 @@
 		},
 		"schema": [
 			{
+				"name": "pointOfSale_id",
 				"type": "String"
 			},
 			{
+				"name": "pointOfSaleFormat_id",
 				"type": "String"
 			},
 			{
+				"name": "webSite_id",
 				"type": "String"
 			},
 			{
+				"name": "pointOfSaleName",
 				"type": "String"
 			},
 			{
+				"name": "language_id",
 				"type": "String"
 			},
 			{
+				"name": "taxesPercentagepointOfSale",
 				"type": "String"
 			},
 			{
+				"name": "currency_id",
 				"type": "String"
 			}
 		]
