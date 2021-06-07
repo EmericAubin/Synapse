@@ -14,11 +14,29 @@
 				"folderPath": "DATAWAREHOUSE_FILES",
 				"fileSystem": "daidalos"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": ";",
 			"escapeChar": "\\",
 			"quoteChar": "\""
 		},
 		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
 			{
 				"type": "String"
 			}
