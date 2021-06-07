@@ -1,0 +1,122 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "daidalosdwh-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "daidalos"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"destinationContainer": {
+					"type": "string"
+				},
+				"endpoint": {
+					"type": "string"
+				},
+				"inventoryCompletionTime": {
+					"type": "string"
+				},
+				"inventoryStartTime": {
+					"type": "string"
+				},
+				"rules": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"definition": {
+								"type": "object",
+								"properties": {
+									"filters": {
+										"type": "object",
+										"properties": {
+											"blobTypes": {
+												"type": "array",
+												"items": {
+													"type": "string"
+												}
+											},
+											"includeBlobVersions": {
+												"type": "boolean"
+											},
+											"includeSnapshots": {
+												"type": "boolean"
+											},
+											"prefixMatch": {
+												"type": "array"
+											}
+										}
+									},
+									"format": {
+										"type": "string"
+									},
+									"objectType": {
+										"type": "string"
+									},
+									"schedule": {
+										"type": "string"
+									},
+									"schemaFields": {
+										"type": "array",
+										"items": {
+											"type": "string"
+										}
+									}
+								}
+							},
+							"files": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"blob": {
+											"type": "string"
+										},
+										"size": {
+											"type": "integer"
+										}
+									}
+								}
+							},
+							"name": {
+								"type": "string"
+							},
+							"status": {
+								"type": "string"
+							},
+							"summary": {
+								"type": "object",
+								"properties": {
+									"directoryCount": {
+										"type": "integer"
+									},
+									"fileCount": {
+										"type": "integer"
+									},
+									"objectCount": {
+										"type": "integer"
+									},
+									"totalObjectSize": {
+										"type": "integer"
+									}
+								}
+							}
+						}
+					}
+				},
+				"version": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
