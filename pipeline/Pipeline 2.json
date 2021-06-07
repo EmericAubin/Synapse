@@ -31,7 +31,7 @@
 						}
 					},
 					"enableStaging": false,
-					"enableSkipIncompatibleRow": false
+					"enableSkipIncompatibleRow": true
 				},
 				"inputs": [
 					{
